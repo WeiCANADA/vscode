@@ -1,0 +1,10 @@
+q = [0,1,2,3,4]
+i=0
+s=[]
+while q[i] != None:
+    i+=1
+for j in range(len(q)):
+    r = q[:]
+    r[i] = j
+    s.append(r)
+print(s)
