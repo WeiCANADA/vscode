@@ -1,3 +1,5 @@
+
+
 '''
 # Define my_stuff 
 my_stuff=['apply' , 0.1, 7,True]
@@ -12,9 +14,30 @@ print(nums)
 answer = [[i for i in range(3)] for _ in range(3)]
 answer = [[i for i in range(3)] in range(3)]
 print(answer)
-'''
+
+from collections import deque
+
+
 answer = [[i for i in range(10)]  for _ in range(10)]
 print(answer)
 
 # list recap
+'''
+# queue
 
+from collections import deque
+
+
+queue = deque(['A','B','C'])
+t = queue.popleft()
+print(f't = {t}')
+
+
+matrix = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12],
+]
+
+t = list(zip(*matrix))
+print(f'{t}')
