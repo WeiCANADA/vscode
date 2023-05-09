@@ -1,2 +1,0 @@
-s = 'I am global variable'
-print(s.split(' '))
