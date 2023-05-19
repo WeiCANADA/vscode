@@ -1,0 +1,2 @@
+import pyodbc
+pyodbc.SQL_ACCESS_MODE
