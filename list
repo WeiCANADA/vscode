@@ -41,3 +41,10 @@ matrix = [
 
 t = list(zip(*matrix))
 print(f'{t}')
+
+sl = [1, 2, 3, 4]
+print(sl[::-1])
+
+w = '􁇓􀧌'
+x = w.encode('utf-8')
+y = x[::-1]
